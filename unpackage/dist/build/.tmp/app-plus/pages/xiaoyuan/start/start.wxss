@@ -1,0 +1,40 @@
+
+.bac_image {
+	width: 750rpx;
+}
+.progress_style {
+	z-index: 20;
+	height: 50rpx;
+	width: 400rpx;
+	padding-left: 33rpx;
+}
+.button_style {
+
+	border-radius: 12rpx;
+	background-color: #71C671;
+	width: 400rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	font-size: 34rpx;
+	text-align: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.button_style2 {
+
+	border-radius: 12rpx;
+	background-color: LightSeaGreen;
+	color: white;
+	width: 400rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	font-size: 34rpx;
+	text-align: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+

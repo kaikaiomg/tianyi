@@ -1,0 +1,36 @@
+
+.grey_view {
+	background-color: #C0C0C0;
+	color: black;
+	font-size: 20rpx;
+	height: 50rpx;
+	line-height: 50rpx;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.white_view {
+	background-color: #DCDCDC;
+	color: black;
+	font-size: 20rpx;
+	height: 50rpx;
+	line-height: 50rpx;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.blue_view {
+	background-color: SteelBlue;
+	color: white;
+	font-size: 30rpx;
+	font-weight: bold;
+	height: 50rpx;
+	line-height: 50rpx;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+

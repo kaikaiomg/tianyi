@@ -1,0 +1,13 @@
+
+      !(function(){
+        var uniAppViewReadyCallback = function(){
+          setCssToHead([".",[1],"title_view { width: ",[0,750],"; height: ",[0,100],"; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-flow: column; -ms-flex-flow: column; flex-flow: column; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }\n.",[1],"bac_view { -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-flow: column; -ms-flex-flow: column; flex-flow: column; text-align: center; height: 100%; background-repeat: no-repeat; background-size: 100% 100%; background-image: url(\x27http://kaikaiomg-kaikaiomg.stor.sinaapp.com/uni_app_image/guanggao_pic/BC.png\x27); }\n.",[1],"l_index { -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; overflow: hidden; height: ",[0,1000],"; }\n.",[1],"swiper-tab { width: ",[0,750],"; white-space: nowrap; line-height: ",[0,54],"; height: ",[0,64],"; position: fixed; top: ",[0,0],"; z-index: 10; }\n.",[1],"swiper-tab-list { font-size: ",[0,30],"; width: ",[0,150],"; display: inline-block; text-align: center; color: #777777; }\n.",[1],"tap_on { color: RoyalBlue; border-bottom: ",[0,10]," solid RoyalBlue; }\n.",[1],"tab-swiper-box { -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; width: ",[0,750],"; height: 100%; position: fixed; top: ",[0,64],"; z-index: 10; }\n::-webkit-scrollbar { width: 0; height: 0; color: transparent; }\n",],"Some selectors are not allowed in component wxss, including tag name selectors, ID selectors, and attribute selectors.(./pages/xiaoyuan/shebei/shebei.wxss:88:1)",{path:"./pages/xiaoyuan/shebei/shebei.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/xiaoyuan/shebei/shebei.wxml') } }));
+        }
+        if(window.__uniAppViewReady__){
+          uniAppViewReadyCallback()
+        }else{
+          document.addEventListener('uniAppViewReady',uniAppViewReadyCallback)
+        }
+      })();
+      

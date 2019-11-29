@@ -1,0 +1,9 @@
+
+.text_item {
+	font-size: 25rpx;
+	padding: 20rpx 20rpx;
+	color: #222222;
+}
+
+
+

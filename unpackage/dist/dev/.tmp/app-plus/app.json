@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/xiaoyuan/start/start",
+    "pages/xiaoyuan/map/map",
+    "pages/xiaoyuan/xiaoyuan_login/xiaoyuan_login",
+    "pages/xiaoyuan/gaojing/gaojing",
+    "pages/xiaoyuan/nenghao/nenghao",
+    "pages/xiaoyuan/wangluo/wangluo",
+    "pages/xiaoyuan/center/center",
+    "pages/xiaoyuan/shebei/shebei",
+    "pages/xiaoyuan/jieshao/jieshao",
+    "pages/xiaoyuan/paihang/paihang"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "天翼大学",
+    "navigationBarBackgroundColor": "#4169E1",
+    "backgroundColor": "#fbf9fe"
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#444444",
+    "selectedColor": "#4169E1",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/xiaoyuan/map/map",
+        "iconPath": "static/weizhi1.png",
+        "selectedIconPath": "static/weizhi2.png",
+        "text": "位置"
+      },
+      {
+        "pagePath": "pages/xiaoyuan/shebei/shebei",
+        "iconPath": "static/fenlei_1.png",
+        "selectedIconPath": "static/fenlei_2.png",
+        "text": "场地"
+      },
+      {
+        "pagePath": "pages/xiaoyuan/center/center",
+        "iconPath": "static/geren_1.png",
+        "selectedIconPath": "static/geren_2.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "splashscreen": {
+    "autoclose": true
+  },
+  "appname": "data_truth"
+}

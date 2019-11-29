@@ -1,0 +1,2 @@
+<import src="./paihang.vue.wxml" />
+    <template is="5cc92cfe" data="{{ ...$root['0'], $root }}"/>

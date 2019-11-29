@@ -1,0 +1,2 @@
+<import src="./xiaoyuan_login.vue.wxml" />
+    <template is="d513c1aa" data="{{ ...$root['0'], $root }}"/>

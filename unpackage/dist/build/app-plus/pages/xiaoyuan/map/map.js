@@ -1,0 +1,13 @@
+
+      !(function(){
+        var uniAppViewReadyCallback = function(){
+          setCssToHead([".",[1],"_map { width: 100%; height: 100%; }\n.",[1],"page-section { width: 100%; margin-bottom: ",[0,60],"; }\n.",[1],"width750 { width: ",[0,750],"; }\n.",[1],"show_view { border-top: ",[0,6]," solid grey; width: ",[0,750],"; height: ",[0,320],"; position: fixed; bottom: ",[0,0],"; background-color: white; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-flow: row; -ms-flex-flow: row; flex-flow: row; z-index: 99; }\n.",[1],"button_style { margin-top: ",[0,70],"; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; font-size: ",[0,26],"; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-flow: column; -ms-flex-flow: column; flex-flow: column; border-radius: ",[0,100],"; height: ",[0,100],"; width: ",[0,100],"; border: ",[0,1]," solid black; }\n.",[1],"btn_green { background-color: red; color: white; }\n.",[1],"btn_black { background-color: white; color: black; }\n.",[1],"menu_view { position: fixed; top: ",[0,0],"; width: ",[0,750],"; height: 100%; background: rgba(200, 200, 200, .5); -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-flow: column; -ms-flex-flow: column; flex-flow: column; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; z-index: 100; }\n.",[1],"menu_item_view { background: rgba(30, 144, 255, .8); margin: ",[0,60]," ",[0,0],"; border-radius: ",[0,30],"; padding: ",[0,30]," ",[0,90],"; border: ",[0,1]," solid black; font-size: ",[0,35],"; color: white; }\n.",[1],"dacha_view { position: absolute; top: ",[0,0],"; left: ",[0,0],"; color: red; font-weight: bold; padding: ",[0,50],"; font-size: ",[0,40],"; }\n",],undefined,{path:"./pages/xiaoyuan/map/map.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/xiaoyuan/map/map.wxml') } }));
+        }
+        if(window.__uniAppViewReady__){
+          uniAppViewReadyCallback()
+        }else{
+          document.addEventListener('uniAppViewReady',uniAppViewReadyCallback)
+        }
+      })();
+      
